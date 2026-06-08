@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESONTIC AI PRIVATE LIMITED</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #1565c0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .director {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .director img {
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #1565c0;
+        }
+
+        .banner-img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        h2 {
+            color: #0d47a1;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>RESONTIC AI PRIVATE LIMITED</h1>
+    <p>Innovating with Artificial Intelligence</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#company">Company Details</a>
+    <a href="#directors">Directors</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="card">
+        <h2>About Us</h2>
+
+        <p>
+            RESONTIC AI PRIVATE LIMITED is a technology company focused on
+            Artificial Intelligence solutions, innovation, and digital transformation.
+            We strive to deliver intelligent systems that help businesses improve
+            efficiency, productivity, and decision-making.
+        </p>
+
+        <!-- DRONE IMAGE ADDED -->
+        <img src="images/drone.jpg" alt="AI Drone Technology" class="banner-img">
+
+    </section>
+
+    <section id="company" class="card">
+        <h2>Company Details</h2>
+
+        <p><strong>Company Name:</strong> RESONTIC AI PRIVATE LIMITED</p>
+
+        <p><strong>Registered Office:</strong><br>
+            Flat No.10, SR No.35/2B,<br>
+            Lingaraj Nagar, Hubli Unkal,<br>
+            Hubli, Dharwad - 580031,<br>
+            Karnataka, India.
+        </p>
+
+        <ul>
+            <li><strong>Date of Registration:</strong> 04 August 2025</li>
+            <li><strong>CIN:</strong> U74900KA2025PTC206163</li>
+            <li><strong>PAN:</strong> AAOCR8790D</li>
+            <li><strong>TAN:</strong> BLRR34105B</li>
+        </ul>
+    </section>
+
+    <section id="directors" class="card">
+        <h2>Board of Directors</h2>
+
+        <div class="director">
+            <img src="images/Geeta.jpg" alt="Mrs. Geeta Rudragouda Bharamagoudar">
+
+            <div>
+                <h3>Dr. Geeta Rudragouda Bharamagoudar</h3>
+                <p><strong>DIN:</strong> 11093584</p>
+
+                <p>
+                    F4 First Floor R K Orchard,<br>
+                    Behind Rambhapuri Kalyan Mantap,<br>
+                    Vidyanagar, Hubli,<br>
+                    Karnataka, India - 580030.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="director">
+            <img src="images/shashikumar.jpg" alt="Mr. Shashikumar G Totad">
+
+            <div>
+                <h3>Dr. Shashikumar G Totad</h3>
+                <p><strong>DIN:</strong> 11226899</p>
+
+                <p>
+                    F4 First Floor R K Orchard,<br>
+                    Behind Rambhapuri Kalyan Mantap,<br>
+                    Vidyanagar, Hubli,<br>
+                    Karnataka, India - 580030.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="card">
+        <h2>Contact Information</h2>
+
+        <p>
+            <strong>RESONTIC AI PRIVATE LIMITED</strong><br>
+            Flat No.10, SR No.35/2B,<br>
+            Lingaraj Nagar, Hubli Unkal,<br>
+            Hubli, Dharwad - 580031,<br>
+            Karnataka, India.
+        </p>
+
+        <p>
+            Email: info@resonticai.com<br>
+            Phone: +91 8310388018 <br>
+        </p>
+    </section> <br>
+<img src="images/drone.jpg">
+
+</div>
+
+<footer>
+    <p>&copy; 2026 RESONTIC AI PRIVATE LIMITED. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
